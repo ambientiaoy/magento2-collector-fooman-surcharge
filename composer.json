@@ -1,0 +1,20 @@
+{
+    "name": "ambientia/collector-fooman-surcharge",
+    "description": "This module improves the compatibility betweeb Customweb_CollectorCw and Fooman_Surcharge modules.",
+    "require": {
+        "magento/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ambientia\\CollectorFoomanSurcharge\\": ""
+        }
+    }
+}

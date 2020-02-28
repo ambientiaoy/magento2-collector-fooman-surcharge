@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Customweb\CollectorCw\Helper\InvoiceItem">
+        <plugin name="ReplaceFoomanSurchargeInvoiceItems"
+                type="Ambientia\CollectorFoomanSurcharge\Plugin\Helper\InvoiceItem" />
+    </type>
+    <type name="Customweb\CollectorCw\Helper\FoomanSurcharge">
+        <plugin name="ReplaceFoomanSurchargeItemTotalsCalculation"
+                type="Ambientia\CollectorFoomanSurcharge\Plugin\Helper\FoomanSurcharge" />
+    </type>
+</config>
